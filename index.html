@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/9b9223f10d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <title>📨 CelineMails</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <h2>Messages total :</h2>
+            <h3 id="count">0</h3>
+            <input id="search" class="msg-field" type="text" value="search messages">
+            <button id="btn-search" class="button" type="button">Search</button>
+        </div>
+        <div class="new">
+            <input id="new-message" class="msg-field" type="text" value="new message">
+            <button id="btn-add" class="button" type="button">Add</button>
+        </div>
+        <div class="messages">
+            <div class="message-card">
+                <img src="assets/avatar-1.jpg" alt="friend-1">
+                <div class="message-text">
+                    <h6>Noël Paganelli</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, labore debitis impedit sint iusto aperiam optio, dignissimos provident quod culpa unde ab non, quis fugit ut explicabo praesentium ipsam similique!</p>
+                </div>
+                <i class="far fa-trash-alt"></i>
+            </div>
+            <div class="message-card">
+                <img src="assets/avatar-2.jpg" alt="friend-2">
+                <div class="message-text">
+                    <h6>Elise Watson</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, labore debitis impedit sint iusto aperiam optio, dignissimos provident quod culpa unde ab non, quis fugit ut explicabo praesentium ipsam similique!</p>
+                </div>
+                <i class="far fa-trash-alt"></i>
+            </div>
+            <div class="message-card">
+                <img src="assets/avatar-3.jpg" alt="friend-3">
+                <div class="message-text">
+                    <h6>Adam Keval</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, labore debitis impedit sint iusto aperiam optio, dignissimos provident quod culpa unde ab non, quis fugit ut explicabo praesentium ipsam similique!</p>
+                </div>
+                <i class="far fa-trash-alt"></i>
+            </div>
+            <div class="message-card">
+                <img src="assets/avatar-4.jpg" alt="friend-4">
+                <div class="message-text">
+                    <h6>Alexandra Pozi</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, labore debitis impedit sint iusto aperiam optio, dignissimos provident quod culpa unde ab non, quis fugit ut explicabo praesentium ipsam similique!</p>
+                </div>
+                <i class="far fa-trash-alt"></i>
+            </div>
+            <div class="message-card last-message">
+                <img src="assets/avatar-5.jpg" alt="friend-5">
+                <div class="message-text">
+                    <h6>Zoe Millot</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, labore debitis impedit sint iusto aperiam optio, dignissimos provident quod culpa unde ab non, quis fugit ut explicabo praesentium ipsam similique!</p>
+                </div>
+                <i class="far fa-trash-alt"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
